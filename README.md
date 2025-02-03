@@ -9,3 +9,14 @@ This repository contains multiple beginner-friendly and advanced projects in Pyt
 3. **Handwritten Digit Recognition** - Uses a CNN to classify MNIST digits.
 4. **Customer Segmentation** - Applies K-Means clustering for customer grouping.
 5. **Stock Market Prediction** - Uses LSTM for forecasting stock prices.
+
+### Requirements
+To install dependencies, run:
+
+pip install -r requirements.txt
+
+## Usage
+Each project has its own Python script. Run them in Jupyter Notebook or a Python environment.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss.
