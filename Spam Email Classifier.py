@@ -1,5 +1,5 @@
 ### 2. Spam Email Classifier (Naïve Bayes)
-```python
+
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -21,4 +21,4 @@ model.fit(X_train, y_train)
 # Predict and evaluate
 y_pred = model.predict(X_test)
 print(f'Accuracy: {accuracy_score(y_test, y_pred):.2f}')
-```
+
