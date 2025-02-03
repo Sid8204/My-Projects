@@ -1,5 +1,5 @@
-# 1. House Price Prediction (Linear Regression)
-```python
+### 1. House Price Prediction (Linear Regression)
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,4 +22,4 @@ model.fit(X_train, y_train)
 # Predict and evaluate
 y_pred = model.predict(X_test)
 print(f'Mean Absolute Error: {mean_absolute_error(y_test, y_pred):.2f}')
-```
+
